@@ -50,6 +50,11 @@ Form.defaultProps = {
     title: "Sign In",
     formArr: [
         {
+            label: "Name",
+            name: "name",
+            type: "text",
+        },
+        {
             label: "Email",
             name: "email",
             type: "text",
